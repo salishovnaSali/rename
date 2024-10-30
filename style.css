@@ -1,0 +1,94 @@
+/* Основные стили */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    background-color: #f2f2f2; /* Светлый фон для удобства чтения */
+    color: #333; /* Темный текст для контраста */
+    line-height: 1.6; /* Интерлиньяж для улучшения читаемости */
+  }
+  
+  header {
+    background-color: #6c757d; /* Нейтральный цвет для шапки */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Тень для глубины */
+  }
+  
+  header h1 {
+    font-size: 2.5rem; /* Размер заголовка */
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 1.2rem; /* Размер подзаголовка */
+  }
+  
+  main {
+    max-width: 800px; /* Максимальная ширина основного контейнера */
+    margin: 30px auto; /* Центрирование */
+    padding: 20px;
+    background-color: white; /* Белый фон для основного контента */
+    border-radius: 8px; /* Округлые углы */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Тень для глубины */
+  }
+  
+  h2 {
+    color: #4a90e2; /* Яркий цвет для заголовков секций */
+    margin-bottom: 10px;
+    font-size: 1.8rem; /* Размер заголовков секций */
+  }
+  
+  ul {
+    margin: 15px 0; /* Отступы для списков */
+    padding-left: 20px; /* Отступ слева */
+  }
+  
+  ul li {
+    margin-bottom: 10px; /* Отступы между пунктами списка */
+  }
+  
+  strong {
+    color: #333; /* Цвет для выделения важных слов */
+  }
+  
+  article {
+    margin-top: 20px; /* Отступ сверху для статей */
+    padding: 15px; /* Внутренние отступы */
+    background-color: #e9ecef; /* Светло-серый фон для статей */
+    border-radius: 5px; /* Округлые углы */
+  }
+  
+  footer {
+    text-align: center; /* Центрирование текста в подвале */
+    margin-top: 30px; /* Отступ сверху */
+    padding: 10px; /* Внутренние отступы */
+    background-color: #6c757d; /* Нейтральный цвет для подвала */
+    color: white; /* Белый текст */
+    border-top: 2px solid #333; /* Граница сверху для отделения */
+  }
+  
+  footer p {
+    margin: 0; /* Убираем отступы для параграфов */
+  }
+  
+  /* Медиазапросы для адаптивности */
+  @media (max-width: 600px) {
+    header h1 {
+      font-size: 2rem; /* Уменьшаем размер заголовка для мобильных устройств */
+    }
+  
+    main {
+      margin: 20px; /* Уменьшаем отступы для мобильных устройств */
+      padding: 15px; /* Уменьшаем внутренние отступы */
+    }
+  
+    h2 {
+      font-size: 1.6rem; /* Уменьшаем размер заголовков секций */
+    }
+  }
